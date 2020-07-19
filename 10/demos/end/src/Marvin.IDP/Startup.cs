@@ -86,7 +86,7 @@ namespace Marvin.IDP
 
         public X509Certificate2 LoadCertificateFromStore()
         {
-            string thumbPrint = "d4d681b3de4cd26fc030292aeea170e553810bdb";
+            string thumbPrint = "7d77ec25bfacbd2e215ef1c070e0ad91387787dd";
 
             using (var store = new X509Store(StoreName.My, StoreLocation.LocalMachine))
             {
